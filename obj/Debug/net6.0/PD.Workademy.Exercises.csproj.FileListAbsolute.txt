@@ -1,0 +1,15 @@
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\bin\Debug\net6.0\PD.Workademy.Exercises.exe
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\bin\Debug\net6.0\PD.Workademy.Exercises.deps.json
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\bin\Debug\net6.0\PD.Workademy.Exercises.runtimeconfig.json
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\bin\Debug\net6.0\PD.Workademy.Exercises.dll
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\bin\Debug\net6.0\PD.Workademy.Exercises.pdb
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\PD.Workademy.Exercises.csproj.AssemblyReference.cache
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\PD.Workademy.Exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\PD.Workademy.Exercises.AssemblyInfoInputs.cache
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\PD.Workademy.Exercises.AssemblyInfo.cs
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\PD.Workademy.Exercises.csproj.CoreCompileInputs.cache
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\PD.Workademy.Exercises.dll
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\refint\PD.Workademy.Exercises.dll
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\PD.Workademy.Exercises.pdb
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\PD.Workademy.Exercises.genruntimeconfig.cache
+C:\Users\mdavidovic\Desktop\.NET\pd-workademy-exercises\obj\Debug\net6.0\ref\PD.Workademy.Exercises.dll
