@@ -1,6 +1,7 @@
 ﻿/* Write a method that receives one integer number
    and returns true if number has the same value if it is read from right to left
  , otherwise it returns false. */
+
 Console.WriteLine("\n----- 1. November - IsNumberPalindrome");
 void IsNumberPalindrome(int number)
 {
@@ -100,5 +101,26 @@ Characters don't have to be next to each other.
 Console.WriteLine("\n----- 4. November - IsOneStringSubsequenceOfAnother");
 void IsOneStringSubsequenceOfAnother(string firstString, string secondString)
 {
-    List<char> chars = new() { };
+    if (firstString.Length < 0 || firstString.Length > 100)
+        Console.WriteLine("First string needs to have character length between 0 and 100");
+    else if (secondString.Length < 0 || secondString.Length > 1000)
+        Console.WriteLine("Second string needs to have character length between 0 and 1000");
+    else if (firstString.Any(char.IsUpper) || secondString.Any(char.IsUpper))
+        Console.WriteLine("Both strings need to be in lowercase");
+    else
+    {
+        List<bool> foundCharacters = new();
+        for (int i = 0; i < firstString.Length; i++)
+        {
+            if (secondString.Any(x => x.Equals(firstString[i])))
+                foundCharacters.Add(true);
+        }
+        bool result = foundCharacters.Count == firstString.Length;
+        Console.WriteLine(
+            $"Input: firstString ='{firstString}', secondString ='{secondString}' Output: {result})"
+        );
+    }
 }
+IsOneStringSubsequenceOfAnother("abc", "ahbgdc");
+IsOneStringSubsequenceOfAnother("axc", "ahbgdc");
+IsOneStringSubsequenceOfAnother("", "ahbgdc");
