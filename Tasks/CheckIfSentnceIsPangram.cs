@@ -4,6 +4,10 @@
     {
         public static void Test(string input)
         {
+            /*
+                Write a method that receives one string and returns true if sentence is pangram, and false if it is not.
+                Sentence is pangram if consists every letter of the English alphabet.
+            */
             if (input.Length <= 1 || input.Length >= 1000)
             {
                 Console.WriteLine($"{input} needs to have minimum 2 and maximum 1000 characters");

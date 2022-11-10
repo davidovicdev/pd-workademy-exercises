@@ -1,4 +1,5 @@
-﻿/*
+﻿using PD.Workademy.Exercises.Tasks;
+
 CheckIfNumberIsPalindrome.Test(150);
 CheckIfNumberIsPalindrome.Test(181);
 CheckIfNumberIsPalindrome.Test(1);
@@ -18,4 +19,15 @@ CheckIfStringIsSubsequenceOfSentence.Test("", "ahbgdc");
 GreatestCommonDivisorOfArray.Test(new int[] { 2, 5, 6, 9, 10 });
 GreatestCommonDivisorOfArray.Test(new int[] { 7, 5, 6, 8, 3 });
 GreatestCommonDivisorOfArray.Test(new int[] { 3, 3 });
-*/
+FirstNonRepeatedCharacter.Test("prodyna");
+FirstNonRepeatedCharacter.Test("thebestcomapny");
+FirstNonRepeatedCharacter.Test("aabbcc");
+FirstNonRepeatedCharacter.Test("thisStringHasUppercaseWords");
+ArrayIsContinuousSequence.Test(new int[] { 3, 4, 5, 5, 5, 6 });
+ArrayIsContinuousSequence.Test(new int[] { 421, 22, 19, 4, 4, 1 });
+ArrayIsContinuousSequence.Test(new int[] { 2, 5, 8, 7, 8 });
+FibonacciNumberCalculator.Test(0);
+FibonacciNumberCalculator.Test(1);
+FibonacciNumberCalculator.Test(2);
+FibonacciNumberCalculator.Test(3);
+FibonacciNumberCalculator.Test(5);
