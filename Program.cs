@@ -1,4 +1,4 @@
-﻿using PD.Workademy.Exercises.Tasks;
+﻿/*using PD.Workademy.Exercises.Tasks;
 
 CheckIfNumberIsPalindrome.Test(150);
 CheckIfNumberIsPalindrome.Test(181);
@@ -31,3 +31,4 @@ FibonacciNumberCalculator.Test(1);
 FibonacciNumberCalculator.Test(2);
 FibonacciNumberCalculator.Test(3);
 FibonacciNumberCalculator.Test(5);
+*/

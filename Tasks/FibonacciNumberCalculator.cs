@@ -10,24 +10,24 @@
                 numbers of Fibonacci sequence where each element of sequence has value that is sum of the two preceding elements.
                 First(Fib(0)) and second(Fib(1)) elements have values 0 and 1.
             */
+            //  F(n) = F(n-2)+F(n-1)
             if (input < 0 || input > 100)
                 Console.WriteLine("Input number needs to be between 0 and 100");
             else
             {
-                int result = 0;
-                int temporarySumOfTwoNumbers = 0;
-                for (int i = 1; i <= input; i++)
+                int FibFrom(int n)
                 {
-                    if (input == 0)
-                    {
-                        result = 0;
-                        break;
-                    }
+                    if (n == 0)
+                        return 0;
+                    if (n == 1)
+                        return 1;
+                    if (n == 2)
+                        return 1;
                     else
-                    {
-                        int j = i - 1;
-                    }
+                        return FibFrom(n - 2) + FibFrom(n - 1);
                 }
+                int result = FibFrom(input);
+                Console.WriteLine($"Input: {input}; Output: {result}");
             }
         }
     }
