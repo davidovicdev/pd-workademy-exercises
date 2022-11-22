@@ -1,4 +1,4 @@
-﻿/*using PD.Workademy.Exercises.Tasks;
+﻿using PD.Workademy.Exercises.Tasks;
 
 CheckIfNumberIsPalindrome.Test(150);
 CheckIfNumberIsPalindrome.Test(181);
@@ -31,4 +31,14 @@ FibonacciNumberCalculator.Test(1);
 FibonacciNumberCalculator.Test(2);
 FibonacciNumberCalculator.Test(3);
 FibonacciNumberCalculator.Test(5);
-*/
+FirstGreaterSuccessor.Test(new int[] { 22, 23, 24, 11, 15, 2, 45, 47 });
+FirstGreaterSuccessor.Test(new int[] { 60, 70, 80, 90 });
+FirstGreaterSuccessor.Test(new int[] { 90, 60, 30 });
+SuperElementOfArray.Test(new int[] { 2, 2, 3, 4 });
+SuperElementOfArray.Test(new int[] { 1, 2, 2, 3, 3, 3 });
+SuperElementOfArray.Test(new int[] { 2, 2, 2, 3, 3 });
+UglyNumberCheck.Test(6);
+UglyNumberCheck.Test(1);
+UglyNumberCheck.Test(14);
+UglyNumberCheck.Test(22);
+UglyNumberCheck.Test(24);
