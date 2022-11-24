@@ -1,5 +1,5 @@
 ﻿using PD.Workademy.Exercises.Tasks;
-
+/*
 CheckIfNumberIsPalindrome.Test(150);
 CheckIfNumberIsPalindrome.Test(181);
 CheckIfNumberIsPalindrome.Test(1);
@@ -41,4 +41,12 @@ UglyNumberCheck.Test(6);
 UglyNumberCheck.Test(1);
 UglyNumberCheck.Test(14);
 UglyNumberCheck.Test(22);
-UglyNumberCheck.Test(24);
+UglyNumberCheck.Test(24);*/
+/*CopyPasteProblem.Test(3);
+CopyPasteProblem.Test(4);
+CopyPasteProblem.Test(5);
+CopyPasteProblem.Test(1);
+CopyPasteProblem.Test(6);
+CopyPasteProblem.Test(10);*/
+
+CopyPasteProblem.Test(16);
